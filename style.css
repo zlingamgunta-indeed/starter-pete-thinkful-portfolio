@@ -8,6 +8,15 @@ body {
   padding: 40px;
 }
 
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.totalWidth {
+  width: 100%;
+}
+
 /* Headings */
 h1,
 h2,
@@ -40,6 +49,7 @@ article div {
 /* Paragraphs */
 p {
   line-height: 1.5;
+  padding-left: 10px;
 }
 
 /* Links */
@@ -49,6 +59,10 @@ a:link {
 
 a:hover {
   color: #f77f00;
+}
+
+nav {
+  padding-top: 30px;
 }
 
 nav a {
